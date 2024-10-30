@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country Details</title>
+    <link rel="stylesheet" href="country.css" />
+    <script src="country.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header-container">
+      <div class="header-content">
+        <h2 class="title">Country Information</h2>
+        <p class="theme-changer">
+          <i id="theme-icon" class="fa-regular fa-moon"></i>&nbsp;&nbsp;<span
+            id="theme-text"
+            >Dark Mode</span
+          >
+        </p>
+      </div>
+    </header>
+    <main>
+      <div class="country-container">
+        <div class="country-details-container">
+          <div class="country-details">
+            <img src="https://via.placeholder.com/150" alt="Country Flag" />
+            <div class="details-text">
+              <p><strong>Country:</strong> Placeholder Country</p>
+              <p><strong>Population:</strong> 10 Million</p>
+              <p><strong>Region:</strong> Example Region</p>
+              <p><strong>Languages:</strong> English, Spanish</p>
+            </div>
+          </div>
+          <div class="border-countries">
+            <!-- <a href="#">Neighbor 1</a>
+                    <a href="#">Neighbor 2</a>
+                    <a href="#">Neighbor 3</a> -->
+          </div>
+          <!-- Move Back button to the end of the container -->
+          <button class="back-button" onclick="goBack()">Back</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

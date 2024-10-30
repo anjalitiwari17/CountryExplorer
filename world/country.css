@@ -1,0 +1,155 @@
+/* Reset default styles */
+body,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Body styles */
+body {
+  background-color: #f0f0f0;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Dark mode styles */
+body.dark {
+  background-color: #181818;
+  color: #f0f0f0;
+}
+
+/* Header styles */
+.header-container {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Title styles */
+.title {
+  font-size: 1.8rem;
+}
+
+/* Main container styles */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 50px; /* Add some space below the header */
+}
+
+/* Country container styles */
+.country-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  transition: background-color 0.3s;
+}
+
+/* Dark mode card background */
+body.dark .country-container {
+  background-color: #282828;
+}
+
+/* Back button styles */
+.back-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px; /* Added space above the button */
+}
+
+.back-button:hover {
+  background-color: #218838;
+}
+
+/* Country details container styles */
+.country-details {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+/* Flag image styles */
+.country-details img {
+  width: 120px;
+  height: auto;
+  border-radius: 5px;
+  padding: 10px;
+  object-fit: contain;
+  box-sizing: border-box;
+  margin-right: 20px; /* Space between flag and details text */
+}
+
+/* Details text styles */
+.details-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+/* Space between flag and country name */
+.details-text p:first-of-type {
+  margin-top: 15px; /* Space between flag and country name */
+}
+
+/* Increased space between paragraphs */
+.details-text p {
+  margin: 10px 0; /* Increased space between all paragraphs */
+}
+
+/* Border countries styles */
+.border-countries {
+  margin-top: 20px;
+}
+
+.border-countries a {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+.border-countries a:hover {
+  background-color: #0056b3;
+}
+
+/* Theme changer styles */
+.theme-changer {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.theme-changer i {
+  font-size: 1.5rem;
+}
