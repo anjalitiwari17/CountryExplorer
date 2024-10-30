@@ -1,4 +1,5 @@
 Where in the World?
+![Screenshot from 2024-10-31 02-00-28](https://github.com/user-attachments/assets/3fb8cd30-16c2-4a73-b88b-287b54447e75)
 
 
 This project is a simple web application that allows users to explore information about countries around the world. It provides features like searching for countries, filtering by region and language, and toggling between light and dark themes.
